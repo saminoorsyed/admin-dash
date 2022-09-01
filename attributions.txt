@@ -1,0 +1,9 @@
+Home:<a href="https://www.flaticon.com/free-icons/home-button" title="home button icons">Home button icons created by Freepik - Flaticon</a>
+Profile:<a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+Messages:<a href="https://www.flaticon.com/free-icons/message" title="message icons">Message icons created by Arafat Uddin - Flaticon</a>
+History: <a href="https://www.flaticon.com/free-icons/history" title="history icons">History icons created by joalfa - Flaticon</a>
+tasks:<a href="https://www.flaticon.com/free-icons/list" title="list icons">List icons created by Kiranshastry - Flaticon</a>
+groups:<a href="https://www.flaticon.com/free-icons/people" title="people icons">People icons created by SBTS2018 - Flaticon</a>
+settings: <a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Freepik - Flaticon</a>
+Help: <a href="https://www.flaticon.com/free-icons/question" title="question icons">Question icons created by Freepik - Flaticon</a>
+privacy: <a href="https://www.flaticon.com/free-icons/privacy" title="privacy icons">Privacy icons created by deemakdaksina - Flaticon</a>
