@@ -7,3 +7,6 @@ groups:<a href="https://www.flaticon.com/free-icons/people" title="people icons"
 settings: <a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Freepik - Flaticon</a>
 Help: <a href="https://www.flaticon.com/free-icons/question" title="question icons">Question icons created by Freepik - Flaticon</a>
 privacy: <a href="https://www.flaticon.com/free-icons/privacy" title="privacy icons">Privacy icons created by deemakdaksina - Flaticon</a>
+
+profile pics
+Ghibli
