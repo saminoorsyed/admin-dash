@@ -6,7 +6,7 @@
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template: 150px repeat(3, 1fr)/ 250px repeat(3,1fr);
+    grid-template: 150px repeat(3, 1fr)/ 250px repeat(2,1fr) 300px;
 
 }
 
@@ -60,6 +60,7 @@ a>img {
 .head-nav> button {
     height: 20px;
     border-radius: 15px;
+    margin-right:20px;
 }
 
 .hello{
@@ -78,6 +79,20 @@ a>img {
 .content {
     border: solid 4px green;
     grid-area: 2/2/5/4;
+    display: grid;
+    overflow-y: auto;
+    grid-template:  250px 250px / 300px 300px;
+    grid-auto-rows: 250px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card {
+    border: solid 4px red;
+    padding: 15px;
+    display: grid;
+    gap: 15px;
 }
 
 .current {
