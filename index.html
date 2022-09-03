@@ -5,40 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Dashboard</title>
 </head>
 <body>
     <div class="layout">
         <div class="sidebar">
-            <h1 id="Dash-title"> <img src="./images/dashboard/dashboard.png"></img> Dashboard</h1>
+            <h1 id="dash-title"> <img src="./images/dashboard/dashboard.png"></img> Dashboard</h1>
             <div class="personal">
                 <a href="#" class="navigate"><img src="./images/dashboard/home.png" alt="Home"> Home</a>
-                <a href="#" class="navigate"><img src="./images/dashboard/user.png" alt="Profile"> Profile</a>
+                <a href="#" class="navigate"><img src="./images/dashboard/user.png">Profile</a>
                 <a href="#" class="navigate"><img src="./images/dashboard/messages.png" alt="Messages"> Messages</a>
                 <a href="#" class="navigate"><img src="./images/dashboard/history.png" alt="History"> History</a>
-                <a href="#" class="navigate"><img src="./images/dashboard/tasks.png" alt="tasks"> tasks</a>
-                <a href="#" class="navigate"><img src="./images/dashboard/groups.png" alt="groups"> groups</a>
+                <a href="#" class="navigate"><img src="./images/dashboard/tasks.png" alt="tasks"> Tasks</a>
+                <a href="#" class="navigate"><img src="./images/dashboard/groups.png" alt="groups"> Groups</a>
             </div>
             <div class="account">
-                <a href="#" class="navigate"><img src="./images/dashboard/settings.png" alt="settings"> settings</a>
+                <a href="#" class="navigate"><img src="./images/dashboard/settings.png" alt="settings"> Settings</a>
                 <a href="#" class="navigate"><img src="./images/dashboard/help.png" alt="Help"> Help</a>
-                <a href="#" class="navigate"><img src="./images/dashboard/privacy.png" alt="privacy"> privacy</a>
+                <a href="#" class="navigate"><img src="./images/dashboard/privacy.png" alt="privacy"> Privacy</a>
             </div>
         </div>
         <div class="header">
-            <div id="search"><img src="./images/dashboard/search.png" alt="search"> <input type="text"></div>
+            <div id="search">
+                <img src="./images/dashboard/search.png" alt="search"> 
+                <input type="text">
+            </div>
             <div class="head-nav">
                 <img src="" alt="notifications">
-                <img src="" alt="Profile">
-                <p>name</p>
-                <button class="user-media">New</button>
-                <button class="user-media">upload</button>
-                <button class="user-media">share</button>
+                <img id='profile' src="./images/profiles/Totoro.webp" alt="Totoro">
+                <a>Totoro</a>
+                <button><a href="">New</a></button>
+                <button><a href="">upload</a></button>
+                <button><a href="">share</a></button>
             </div>
             <div class="hello">
-                <img src="./images/profiles/Totoro.webp" alt="Totoro">
-                <p>Hi there,</p>
-                <p>Totoro Ghibli (@Totoro)</p>
+                <img id='profile' src="./images/profiles/Totoro.webp" alt="Totoro">
+                <div class="hi">
+                    <p>Hi there,</p>
+                    <h3>Totoro Ghibli (@Totoro)</h3>
+                </div>
             </div>
         </div>
         <div class="content">
@@ -116,10 +121,54 @@
             </div>
         </div>
     <div class="current">
-        <h3 class="title"></h3>
-        <div class="announcements"></div>
-        <h3 class="title"></h3>
-        <div class="notifications"></div>
+        <div class="announcements">
+            <h3 class="title">Announcements</h3>
+            <div class="a-updated">
+                <div class="announcement">
+                    <h4 class="ATitle">Watch out!</h4>
+                    <p>And a whole bunch of random text that should go on and on and on for a very long while until I get tired of typing...</p>
+                </div>
+                <div class="announcement">
+                    <h4 class="ATitle"> This is very important</h4>
+                    <p>And a whole bunch of random text that should go on and on and on for a very long while until I get tired of typing...</p>
+                </div>
+                <div class="announcement">
+                    <h4 class="ATitle"> Do you even read these</h4>
+                    <p>And a whole bunch of random text that should go on and on and on for a very long while until I get tired of typing...</p>
+                </div>
+            </div>
+        </div>
+        <div class="trending">
+            <h3 class="title"> Trending</h3>
+            <div class="t-updated">
+                <div class="trend">
+                    <img src="./images/profiles/chihiro.webp" alt="Chihiro">
+                    <div class="msg">
+                        <p>@Chihiro</p>
+                        <p>don't eat the food! </p>
+                    </div>
+                </div>
+                <div class="trend">
+                    <img src="./images/profiles/noFace.webp" alt="No Face">
+                    <div class="msg">
+                        <p>@NoFace</p>
+                        <p>Uhuh uhuh</p>
+                    </div>
+                </div>
+                <div class="trend">
+                    <img src="./images/profiles/Kodama_Animation.webp" alt="Kodama">
+                    <p>@Kodama</p>
+                    <p> getting my groove on</p>
+                </div>
+                <div class="trend">
+                    <img src="./images/profiles/Totoro.webp" alt="Totoro">
+                    <div class="msg">
+                        <p>@Totoro</p>
+                        <p>Yaaaaawn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
     
